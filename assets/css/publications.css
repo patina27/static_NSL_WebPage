@@ -1,0 +1,98 @@
+.nav_bar_en
+{
+	padding-bottom : 180px;
+}
+
+html, body
+{
+	height:100%;
+	background-image:url("../images/publications_Bk3_blur.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainContainer
+{
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+
+
+select
+{
+	background: rgba(0,0,0,0.3);
+	color:#ecf0f1;
+	height:40px;
+	width:100%;
+
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ecf0f1;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+.publicationArea
+{
+	padding-top: 10px;	
+}
+.publicationArea h2{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-weight: 600;
+	color: #ecf0f1;
+}
+.publicationArea h3{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-weight: 600;
+	color: #ecf0f1;
+}
+.publicationContent
+{
+	padding-bottom:20px;
+	color:#ecf0f1;
+	font-size:20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 200;
+}
+.publicationContent a {
+	color: #ecf0f1;
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: underline;
+}
+
+.selectors
+{
+	font-size:18px;
+}
+
+.dropDownText
+{
+	color:#ecf0f1;
+	padding-bottom:5px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.wrapperRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
